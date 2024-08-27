@@ -26,7 +26,7 @@ const Table = () => {
 
 
     return (
-        <div align="center">
+        <div className="main" align="center">
             <h1>React - Add & Delete table Rows Dyanamically</h1>
             <table>
                 <thead>

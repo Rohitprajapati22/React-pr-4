@@ -1,34 +1,69 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 21px;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tbody tr {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+input {
+    width: 90%;
+    padding: 5px;
+    margin: 2px 0;
+    border: 1px solid #ccc;
+    border-radius:20px;
+
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.main {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
 
 h1 {
-    margin: 25px 0;
+    color: #333;
     font-size: 35px;
-}
-table tr{
-    padding: 10px;
-    font-size: 20px;
-} 
-
-table th{
-    padding: 10px 0;
-    border-bottom: 1px solid #000;
-}
-
-table thead button{
-    width: 35px;
-    height: 35px;
-    font-size: 20px;
-    background-color: transparent;
-    border-radius: 5px;
-    border: 2px solid rgba(56, 228, 131, 0.73);
-    color: rgb(56, 228, 131) ;
-}
-
-table td button{
-    width: 35px;
-    height: 35px;
-    font-size: 20px;
-    background-color: transparent;
-    border-radius: 5px;
-    border: 2px solid rgba(255, 0, 0, 0.826);
-    color:rgba(255, 0, 0, 0.837) ;
+    margin-bottom: 20px;
 }
